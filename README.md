@@ -53,9 +53,9 @@ matrixmult validate 32 12 20
 The syntax of the validation mode is:
 
 ```
-	matrixmult validate A_rows [A_cols B_cols]
-	Validates all implementations against the naive implementation.
-	When A_cols and B_cols are omitted, A_rows is used for all dimensions.
+matrixmult validate A_rows [A_cols B_cols]
+Validates all implementations against the naive implementation.
+When A_cols and B_cols are omitted, A_rows is used for all dimensions.
 ```
 
 Benchmarks
