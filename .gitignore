@@ -1,0 +1,7 @@
+# Ignore debugging and intermediate files.
+*.csv
+*.xlsx
+*.obj
+*.exe
+matrixmult/*
+images/*
