@@ -91,7 +91,7 @@ The Implementations
 -------------------
 
 * Implementation 1 - The classic naive implementation.  Also the slowest.  Good for showing the baseline worst case and validating the other implementations.  Not so great for actual, real world usage.
-* Implementation 2 - Uses a temporary variable for C which might end up using a CPU register to do the addition.
+* Implementation 2 - Uses a temporary variable for matrix C which might end up using a CPU register to do the addition.
 * Implementation 3 - Swaps the j and k loops from Implementation 1.  The result is a bit more CPU cache friendly but adds a comparison per loop and the temporary from Implementation 2 is lost.
 * Implementation 4 - The temporary variable makes a comeback but this time on one of the operands (matrix A) instead of the assignment.
 * Implementation 5 - Move the conditional outside the innermost for loop.  Now we have two inner for-loops.
